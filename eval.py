@@ -75,7 +75,7 @@ def test(config, test_data_loader, gen, criterionMSE, epoch):
         mae = np.mean(abs(out_lab - t_lab))
         '''
     
-        ssim = SSIM(img1, img2)
+        ssim = SSIM(img1, img2, data_range=img1.max() - img1.min())
         avg_mae += mae
         avg_psnr += psnr
         avg_ssim += ssim

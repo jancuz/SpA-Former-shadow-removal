@@ -1,0 +1,1 @@
+./imgs/DESOBA_DATASET/results/000033/models/gen_model_epoch_36.pth ber 38.549513837701795, shadow_ber 76.72225967175461, unshadow ber is 0.3767680036489862 ./data/ISTD_Dataset/test

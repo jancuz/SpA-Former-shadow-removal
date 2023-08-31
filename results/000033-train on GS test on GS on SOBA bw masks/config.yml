@@ -1,6 +1,6 @@
 
 # folder path of dataset, which includes 2 subfolders: cloudy_image/ and ground_truth/
-dataset: DESOBA_ShadowMasks_bw
+dataset: DESOBA_imgGS_ShadowMasks_bw
 datasets_dir: ./imgs/DESOBA_DATASET
 valset_dir: ./imgs/DESOBA_DATASET
 train_list: Training_labels.txt
@@ -21,12 +21,12 @@ width: 480
 height: 640
 threads: 4
 
-lr: 0.000001
+lr: 0.00001
 beta1: 0.5
 lamb: 100
 minimax: 1
 
-gen_init: ./imgs/DESOBA_DATASET/results/000031-train on RGB test on RGB on DESOBA bw masks lr0.00001/models/gen_model_epoch_34.pth
+gen_init: 
 dis_init: 
 in_ch: 3
 out_ch: 3
