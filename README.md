@@ -68,6 +68,11 @@ python demo.py --root_path <path_to_data>
 ```
 
 * There are [results]() on ImageNet val. dataset with model trained on GS ISTD
+
+<p align="center"><img src="imgs/ISTD GS ImageNet val.png">
+  
 * There are [results]() on ImageNet val. dataset with model trained on GS SOBA
+
+<p align="center"><img src="imgs/SOBA GS ImageNet val.png">
 
 
