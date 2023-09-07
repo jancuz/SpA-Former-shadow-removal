@@ -38,7 +38,7 @@ Modify the `config.yml` with the parameters used in `config.yml` files described
 python train.py
 ```
 
-Here you can find [pre-trained model on GS ISTD]() and [pre-trained model on GS SOBA]().
+Here you can find [pre-trained model on GS ISTD](https://drive.google.com/file/d/1-MrP7dV4KTDt7IdJZBAkFeRv88snDV3u/view?usp=drive_link) and [pre-trained model on GS SOBA](https://drive.google.com/file/d/1-Rm6qEKhLUe30G8CMq8UH1t_e5NJkfak/view?usp=drive_link).
 
 ## 2. Test on ImageNet
 
@@ -67,11 +67,11 @@ python demo.py --root_path <path_to_data>
                --save_res_imgs<True/False save_output_or_not>
 ```
 
-* There are [results]() on ImageNet val. dataset with model trained on GS ISTD
+* There are [results](https://drive.google.com/file/d/1-q4miwXtkeKPlLcY4xt4ndqI5SpJEKH8/view?usp=drive_link) on ImageNet val. dataset with model trained on GS ISTD
 
 <p align="center"><img src="imgs/ISTD GS ImageNet val.png">
   
-* There are [results]() on ImageNet val. dataset with model trained on GS SOBA
+* There are [results](https://drive.google.com/file/d/1-vxJZ3MygMpN4PCE_tgc1DDAlHJ5TF9O/view?usp=drive_link) on ImageNet val. dataset with model trained on GS SOBA
 
 <p align="center"><img src="imgs/SOBA GS ImageNet val.png">
 
